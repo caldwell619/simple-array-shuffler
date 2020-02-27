@@ -7,6 +7,8 @@ module.exports = {
 	output: {
 		filename: 'main.bundle.js',
 		path: path.resolve(__dirname, 'dist'),
+		libraryTarget: 'commonjs2',
+		libraryExport: 'default'
 	},
 	module: {
 		rules: [
